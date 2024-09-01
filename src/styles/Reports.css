@@ -1,0 +1,23 @@
+.fixedPart {
+    position: fixed;
+    top: 0;
+    left: 18em;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 20px;
+    border-bottom: 0.5px solid #dee2e6;
+  }
+  
+  .scrollablePart {
+    margin-top: 14rem;
+    overflow-y: auto;
+    height: calc(100vh - 14rem);
+    padding: 20px;
+  }
+  
+  .content {
+    margin-left: 18em;
+    height: 100vh;
+    padding-top: 0;
+  }

@@ -1,0 +1,23 @@
+.employee-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative; /* Added for positioning the absolute buttons */
+}
+
+.employee-item.hovered {
+    background-color: #f8f9fa;
+}
+
+.action-buttons {
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    display: flex;
+}
+
+.action-button {
+    margin-left: 5px;
+    cursor: pointer;
+}

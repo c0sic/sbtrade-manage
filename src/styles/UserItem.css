@@ -1,0 +1,31 @@
+.user-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.user-item:hover {
+    background-color: #f8f9fa;
+}
+
+.oib-section {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    margin-left: 5px;
+}
